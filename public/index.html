@@ -1,30 +1,24 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <script src="/uv/uv.bundle.js"></script>
-        <script src="/uv/uv.config.js"></script>
-        <script src="/baremux/index.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy-Rock</title>
+    <link rel="stylesheet" href=".css/index.css">
+</head>
+<body>
+<button type="button" class="about-blank">Open in about:blank</button>
+<script src="aboutblank.js"></script>
+<button class="home-button" onclick="location.href='index.html'">🏠</button>
+<h1 class="happy-rock">Happy-Rock</h1>
+<button class="side-games" onclick="location.href='games-page.html'">🎮</button>
+<button class="side-proxy" onclick="location.href='p.html'">🔎</button>
+<h2 class="version">Version: 1.0</h2>
+<button class="discord" onclick="location.href='https://discord.gg/7FX34bxtKT'"><img src="img/discord.png"</button>
+<p class="memo">Here at happy rock community we are dedicated to helping make school / work less boring</p>
+<p class="whoarewe">Who are we?</p>
+<p class="whoweare">happy rock community is your ultimate site for unblocking the web, we have games, bookmarklets, a google site, and a proxy. our goal is to help you bypass your schools web filtering without getting caught.</p>
 
-        <script>
-        if ("serviceWorker" in navigator) {
-            window.addEventListener("load", async () => {
-                await navigator.serviceWorker.register("/uv/sw.js");
-            });
-        }
-        </script>
 
-        <link rel="stylesheet" href="example.css">
-    </head>
-    <body>
-        <input type="text" id="urlInput" placeholder="Enter URL here">
-        <button id="searchButton">Search Text</button>
-        <select id="switcher">
-            <option value="">--Please Choose an Option--</option>
-            <option value="epoxy">Epoxy</option>
-            <option value="bare">Bare</option>
-        </select>
-
-        <iframe id="iframeWindow" class="iframeWindow"></iframe>
-    </body>
-    <script src="example.js"></script>
+</body>
 </html>
