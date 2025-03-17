@@ -1,0 +1,123 @@
+body {
+    background-color: black; /* Set the background color */
+}
+.home-button {
+    position: fixed;
+    left: 5px;
+    top: 60px;
+    width: 90px; /* Set the width of the button */
+    height: 90px; /* Set the height of the button */
+    padding: 10px 20px;
+    background-color: #232324;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 50px; /* Set the font size of the button */
+    cursor: pointer;
+}
+.happy-rock {
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    width: 545px; /* Set the width of the button */
+    height: 125px; /* Set the height of the button */
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 100px; /* Set the font size of the button */
+    cursor: pointer;
+}
+ .side-games {
+    position: fixed;
+    left: 5px;
+    top: 190px;
+    width: 90px; /* Set the width of the button */
+    height: 90px; /* Set the height of the button */
+    padding: 10px 20px;
+    background-color: #232324;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 50px; /* Set the font size of the button */
+    cursor: pointer;
+}
+.version {
+    position: absolute;
+    left: 450px;
+    top: 175px;
+    width: 200px; /* Set the width of the button */
+    height: 30px; /* Set the height of the button */
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px; /* Set the font size of the button */
+    cursor: pointer;
+}
+.discord {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 980px;
+    top: 650px;
+    width: 75px; /* Set the width of the button */
+    height: 75px; /* Set the height of the button */
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px; /* Set the font size of the button */
+    cursor: pointer;
+}
+ .discord img {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+}
+.memo {
+    position: absolute;
+    left: -750px;
+    top: -400px;
+    width: 600px; /* Set the width of the button */
+    height: 30px; /* Set the height of the button */
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px; /* Set the font size of the button */
+    cursor: pointer;
+}
+ .whoarewe {
+    position: absolute;
+    left: -750px;
+    top: -250px;
+    width: 600px; /* Set the width of the button */
+    height: 30px; /* Set the height of the button */
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px; /* Set the font size of the button */
+    cursor: pointer;
+}
+ .side-proxy {
+    position: fixed;
+    left: 5px;
+    top: 320px;
+    width: 90px; /* Set the width of the button */
+    height: 90px; /* Set the height of the button */
+    padding: 10px 20px;
+    background-color: #232324;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 50px; /* Set the font size of the button */
+    cursor: pointer;
+}
